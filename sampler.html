@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HTML/CSS Style Sampler</title>
+<meta charset="UTF-8">
+
+<h1>HTML/CSS Style Sampler</h1>
+
+<h2>Headers</h2>
+<h1>h1. Sample Header 1 <small>w/ caption</small></h1>
+<h2>h2. Sample Header 2 <small>w/ caption</small></h2>
+<h3>h3. Sample Header 3 <small>w/ caption</small></h3>
+<h4>h4. Sample Header 4 <small>w/ caption</small></h4>
+<h5>h5. Sample Header 5 <small>w/ caption</small></h5>
+<h6>h6. Sample Header 6 <small>w/ caption</small></h6>
+
+<h2>Paragraphs &amp; Inline Text Styles</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ab atque inventore repellendus, neque, molestiae iure consectetur sunt ullam eius sapiente ea, similique animi ipsum quo labore sit optio quis.</p>
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>This text is meant to be treated as deleted text.</del></p>
+<p><s>This text is meant to be treated as no longer accurate.</s></p>
+<p><ins>This text is meant to be treated as an addition to the document.</ins></p>
+<p><u>This text will render as underlined</u></p>
+<p><small>This text is meant to be treated as fine print.</small></p>
+<p>The following text snippest is <strong>rendered as bold text</strong>.</p>
+<p>The following text snippet is <em>rendered as italicized text</em>.</p>
+
+<h2>Block Quotes <small>w/ footer and citation</small></h2>
+<blockquote>
+	<p>Some people like to quote smart people to make themselves sound smarter.</p>
+	<footer>––Someone famous in <cite>Source Title</cite></footer>
+</blockquote>
+
+<h2>Unordered Lists</h2>
+<ul>
+	<li>Lorem ipsum dolor sit amet</li>
+	<li>Consectetur adipiscing elit</li>
+	<li>Integer molestie lorem at massa</li>
+	<li>Facilisis in pretium nisl aliquet</li>
+	<li>Nulla volutpat aliquam velit
+		<ul>
+			<li>Phasellus iaculis neque</li>
+			<li>Purus sodales ultricies</li>
+			<li>Vestibulum laoreet porttitor sem</li>
+			<li>Ac tristique libero volutpat at</li>
+		</ul>
+	</li>
+	<li>Faucibus porta lacus fringilla vel</li>
+	<li>Aenean sit amet erat nunc</li>
+	<li>Eget porttitor lorem</li>
+</ul>
+
+<h2>Ordered Lists</h2>
+<ol>
+	<li>Lorem ipsum dolor sit amet</li>
+	<li>Consectetur adipiscing elit</li>
+	<li>Integer molestie lorem at massa</li>
+	<li>Facilisis in pretium nisl aliquet</li>
+	<li>Nulla volutpat aliquam velit
+		<ol>
+			<li>Phasellus iaculis neque</li>
+			<li>Purus sodales ultricies</li>
+			<li>Vestibulum laoreet porttitor sem</li>
+			<li>Ac tristique libero volutpat at</li>
+		</ol>
+	</li>
+	<li>Faucibus porta lacus fringilla vel</li>
+	<li>Aenean sit amet erat nunc</li>
+	<li>Eget porttitor lorem</li>
+</ol>
+
+<h2>Description Lists</h2>
+<dl>
+	<dt>Example</dt>
+	<dd>A description list is perfect for defining terms.</dd>
+	<dt>Euismod</dt>
+	<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+	<dd>Donec id elit non mi porta gravida at eget metus.</dd>
+	<dt>Malesuada porta</dt>
+	<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+</dl>
+
+<h2>Inline Code</h2>
+<p>This is an inline snippet of code: <code>console.log('Hello World!');</code></p>
+
+<h2>Block Code</h2>
+<pre>setTimeout(() => console.log('Hey there, World!'), 2500);</pre>
+
+<h2>User Input</h2>
+<p>To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd></p>
+
+<h2>Variables</h2>
+<p>Equation for a line: <var>y</var> = <var>m</var><var>x</var> + <var>b</var></p>
+
+<h2>Sample Output</h2>
+<samp>This text is meant to be treated as sample output from a computer program.</samp>
+
+<h2>Tables</h2>
+<table>
+	<caption>Optional table caption.</caption>
+	<thead>
+	<tr>
+		<th>#</th>
+		<th>First Name</th>
+		<th>Last Name</th>
+		<th>Social Media?</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th scope="row">1</th>
+		<td>Eric</td>
+		<td>Madera</td>
+		<td>@twitter</td>
+	</tr>
+	<tr>
+		<th scope="row">2</th>
+		<td>David</td>
+		<td>Campo de Frijoles</td>
+		<td>facebook</td>
+	</tr>
+	<tr>
+		<th scope="row">3</th>
+		<td>Isaac</td>
+		<td>Martín</td>
+		<td>Github</td>
+	</tr>
+	</tbody>
+</table>
+
+<h2>Forms</h2>
+<h3>Inline</h3>
+<form>
+	<label for="exampleInputName2">Name</label>
+	<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+	<label for="exampleInputEmail2">Email</label>
+	<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+	<button type="submit" class="btn btn-default">Send invitation</button>
+</form>
+
+<h3>Block</h3>
+<form>
+	<div>
+		<label for="exampleInputEmail1">Email address</label>
+		<input type="email" id="exampleInputEmail1" placeholder="Email">
+	</div>
+	<div>
+		<label for="exampleInputPassword1">Password</label>
+		<input type="password" id="exampleInputPassword1" placeholder="Password">
+	</div>
+	<div>
+		<label for="exampleInputFile">File input</label>
+		<input type="file" id="exampleInputFile">
+	</div>
+	<div>
+		<label>
+			<input type="checkbox" value="">
+			Option one is this and that&mdash;be sure to include why it's great
+		</label>
+	</div>
+	<div>
+		<label>
+			<input type="checkbox" value="" disabled>
+			Option two is disabled
+		</label>
+	</div>
+	<div>
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			Option one is this and that&mdash;be sure to include why it's great
+		</label>
+	</div>
+	<div>
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			Option two can be something else and selecting it will deselect option one
+		</label>
+	</div>
+	<div>
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+			Option three is disabled
+		</label>
+	</div>
+	<div>
+		<textarea rows="3"></textarea>
+	</div>
+	<div>
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+	</div>
+	<div>
+		<select multiple>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+	</div>
+	<button type="submit" class="btn btn-default">Submit</button>
+</form>
