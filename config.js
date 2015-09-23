@@ -19,14 +19,14 @@
 
         appFiles: {
             // The main .html file for the SPA app.
-            index: ['src/sampler.html'],
+            index: ['sampler.html'],
 
             // Generally there should only be one .scss file and all other files
             // should be imported from this one.
-            styles: ['src/styles/main.scss'],
+            styles: ['styles/main.scss'],
 
             delta: {
-                styles: ['src/**/*.scss', '.csslintrc']
+                styles: ['styles/*.scss', '.csslintrc']
             }
         },
     };
